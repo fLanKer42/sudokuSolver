@@ -32,7 +32,7 @@ Similarly Row Block and Column Block interactions are used to eliminate values.
 • For every element yij of Di, choose a path of length L with L variables, use a consistency checking method similar to above to reduce domains if possible<br /><hr />
 
 
-### But what if the CSP method fails to complete the puzzle? <br />In such cases, we have to stick to AI search methods like BFS, DFS,A* and IDS.
+### But what if the CSP method fails to complete the puzzle? <br />In such cases, we have to stick to AI search methods like BFS, DFS, IDS, DFBB, A* and IDA.
 ### Problem Formulation by AI Search Methods consists of the following key concepts
 – Configuration or State<br />
 – Constraints or Definitions of Valid Configurations<br />
