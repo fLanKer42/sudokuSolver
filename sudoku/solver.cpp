@@ -120,18 +120,7 @@ vector<vector<int>> treeSolver(vector<vector<int>>& sud, vector<vector<vector<in
     cout << "method failed!";
     return sud;
 }
-    ///under construction!!
-    /*
-               -
-              - -
-             -   -
-            -  |  -
-           -   .   -
-          - - - - - -
-            WARNING
-        The following piece
-        of code is incomplete.
-    */
+
 /*
     struct noder {
         int x;
