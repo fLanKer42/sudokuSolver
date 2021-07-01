@@ -1,9 +1,5 @@
-#include <iostream>
-#include <fstream>
 #include <string>
-#include <vector>
 #include "solver.h"
-#include "./test/test.h"
 
 using namespace std;
 
@@ -29,7 +25,11 @@ int main() {
     pair<vector<vector<int>>, vector<vector<vector<int>>>> ans = straight_solver(sud, sudo);
     sud = ans.first;
     sudo = ans.second;
-    while(1) {
+    int p = 0;
+    ans = straight_solver(sud, sudo);
+    sud = ans.first;
+    sudo = ans.second;    
+    while(p < 3) {
         if (isValid(sud)) {
             cout << "The solution is valid!" << endl;
             if (isComplete(sud)) {
@@ -37,11 +37,12 @@ int main() {
                 break;
             }
             else {
+                p++;
                 cout << "The solution is incomplete!" << endl;
+                printFile(sud,sudo);
                 cout << "Commencing Tree Construction Constructions" << endl;
-                ans = treeSolver(sud,sudo);
-                sud = ans.first;
-                sudo = ans.second;
+                sud = treeSolver(sud,sudo);
+                cout << "Done :)!" << endl;
                 ans = straight_solver(sud, sudo);
                 sud = ans.first;
                 sudo = ans.second;

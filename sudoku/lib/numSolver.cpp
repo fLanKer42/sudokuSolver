@@ -1,6 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <utility>
 #include <queue>
 #include "check.h"
 
