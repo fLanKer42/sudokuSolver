@@ -1,5 +1,5 @@
 # **<div dir="rtl" align="center">SudokuSolver</div>**
-## <div dir="rtl" align="center">Solving sudoku using constraint resolution and search algorithms, taking input from the user in image files and processing it using a neural network model</div>
+## <div dir="rtl" align="center">Solving sudoku using constraint propagation and search algorithms, taking input from the user in image files and processing it using a neural network model</div>
 <div dir="rtl" align="center">Author: Dhruv Rai (@fLanKer42)</div><br />
 
 The solver program uses plain c++ to solve sudoku puzzles using non-learning CSP and Seacrh algorithms.<br />
