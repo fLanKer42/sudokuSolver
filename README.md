@@ -1,6 +1,9 @@
-# **sudokuSolver**
-This program uses plain c++ to solve sudoku puzzles using non-learning CSP and Seacrh algorithms.
-It include a nodejs server that hosts a site through which users can post images of sudoku for it to solve.
+# **<div dir="rtl" align="center">SudokuSolver</div>**
+## <div dir="rtl" align="center">Solving sudoku using constraint resolution and search algorithms, taking input from the user in image files and processing it using a neural network model</div>
+<div dir="rtl" align="center">Author: Dhruv Rai (@fLanKer42)</div><br />
+
+The solver program uses plain c++ to solve sudoku puzzles using non-learning CSP and Seacrh algorithms.<br />
+The project includes a nodejs server that hosts a site through which users can post images of sudoku for it to solve.
 The image recognition involves open cv and a neural network model for recognising numbers.
 <br />
 The node server runs both python and cpp scripts as child processes in the server.
