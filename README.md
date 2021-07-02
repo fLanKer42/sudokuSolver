@@ -1,4 +1,5 @@
 # **<div dir="rtl" align="center">SudokuSolver</div>**
+### <div dir="rtl" align="center"><a href="https://github.com/fLanKer42/sudokuSolver.git">Github Repository</a></div>
 ## <div dir="rtl" align="center">Solving sudoku using constraint propagation and search algorithms, taking input from the user in image files and processing it using a neural network model</div>
 <div dir="rtl" align="center">Author: Dhruv Rai (@fLanKer42)</div><br />
 
